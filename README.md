@@ -91,11 +91,7 @@ In this module, we'll dive deep into the basics of Python programming, starting 
    - Provide a brief overview of inheritance as an introduction to the next notebook.
    - Highlight the concept of deriving new classes from existing ones to extend or modify functionality.
 
-# 8. Conclusion and Next Steps 🔜
-   - Summarize the foundational concepts of OOP covered in this notebook.
-   - Tease upcoming topics such as deeper dives into Inheritance, Polymorphism, and advanced OOP features.
-
-# 9. Deep Dive into Inheritance 🌱
+# 8. Deep Dive into Inheritance 🌱
   - **The Power of Inheritance**: Explore the concept of inheritance in OOP, enabling new classes to take on properties and methods of existing classes.
     - Example: Extending a `FootballPlayer` class to a more specific `Goalkeeper` class.
   - **Customizing with Method Overriding**: Learn how subclasses can override methods of their superclass to perform different or additional actions.
@@ -105,7 +101,7 @@ In this module, we'll dive deep into the basics of Python programming, starting 
   - **Utilizing the `super()` Function**: Demystify the `super()` function for accessing superclass methods from a subclass.
     - Example: Using `super()` in the `Goalkeeper` class to extend the `__init__` method.
 
-# 10. Exploring Polymorphism 🔁
+# 9. Exploring Polymorphism 🔁
   - **Understanding Polymorphism**: Introduce polymorphism as a way to use a unified interface for objects of different classes.
     - Example: A function that accepts any object that has a `play` method, whether it's a `FootballPlayer` or a `Musician`.
   - **Implementing Polymorphism**: Show how Python's dynamic nature supports polymorphism without the need for complex type hierarchies.
@@ -113,7 +109,7 @@ In this module, we'll dive deep into the basics of Python programming, starting 
   - **Duck Typing and Python**: Illustrate the concept of duck typing in Python and how it relates to polymorphism.
     - Example: Demonstrating duck typing with different objects that implement a common method differently.
 
-# 11. Mastering Magic Methods and Operator Overloading ✨
+# 10. Mastering Magic Methods and Operator Overloading ✨
   - **Introduction to Magic Methods**: Explain magic methods and how they allow customization of Python's built-in behavior for custom classes.
     - Example: Implementing `__str__` and `__repr__` for the `FootballPlayer` class for better string representation.
   - **Operator Overloading Fundamentals**: Cover how to overload standard operators for custom objects using magic methods.
@@ -121,37 +117,37 @@ In this module, we'll dive deep into the basics of Python programming, starting 
   - **Comprehensive List of Magic Methods**: Provide an overview of various magic methods for comparison, arithmetic operations, and container behaviors.
     - Example: Using `__add__`, `__lt__` (less than), `__eq__` (equal to), and `__getitem__` for a class representing a team.
 
-# 12. Abstract Base Classes (ABCs) and Interface Definition 🛡️
+# 11. Abstract Base Classes (ABCs) and Interface Definition 🛡️
   - **Why Use ABCs?**: Understand the role of abstract base classes in defining interfaces and enforcing subclass implementation.
     - Example: Defining an `Athlete` ABC with an abstract `train` method.
   - **Creating and Using ABCs**: Learn to use the `abc` module to create abstract classes and abstract methods.
     - Example: Implementing an `Athlete` class that cannot be instantiated and requires subclasses to implement the `train` method.
 
-# 13. Multiple Inheritance and Mixins 🔄
+# 12. Multiple Inheritance and Mixins 🔄
   - **Understanding Multiple Inheritance**: Navigate the complexities and benefits of inheriting from more than one base class.
     - Example: Creating a `StudentAthlete` class that inherits from both `Student` and `Athlete` classes.
   - **Leveraging Mixins for Composability**: Utilize mixins to add reusable functionalities to classes.
     - Example: Introducing a `TrainingMixin` that provides additional training methods to any class.
 
-# 14. **Decorators in OOP 🎨
+# 13. Decorators in OOP 🎨
   - **Enhancing Methods with Decorators**: Use decorators to add new functionalities to methods without modifying their original structure.
     - Example: Applying a `@performance_timer` decorator to time methods in the `Athlete` class.
   - **Creating Custom Decorators**: Dive into writing your own decorators for methods in OOP contexts.
     - Example: Writing a `@debug` decorator to log method calls and arguments.
 
-# 15. Advanced Use Cases and Techniques 🚀
+# 14. Advanced Use Cases and Techniques 🚀
   - **Operator Overloading for Custom Behaviors**: Explore further examples of magic methods for custom object behavior.
     - Example: Implementing `__call__` in the `Coach` class to make objects callable.
   - **Using Context Managers in OOP**: Implement context managers within classes for resource management.
     - Example: Creating a `GameSession` context manager to manage game state.
 
-# 16. Best Practices and Common Design Patterns 🏅
+# 15. Best Practices and Common Design Patterns 🏅
   - **OOP Best Practices**: Summarize key practices for writing effective and clean OOP code.
   - **Exploring Design Patterns**: Introduction to common OOP design patterns like Singleton, Factory, Strategy, and Observer.
     - Example: Implementing the Singleton pattern in a `GameManager` class.
   - **Real-World Applications of Design Patterns**: Discuss how these patterns are applied in real-world scenarios and projects.
 
-# 17. Conclusion and Further Learning 📚
+# 16. Conclusion and Further Learning 📚
   - **Wrapping Up**: Reflect on the journey through OOP with Python and how these concepts apply to real-world software development.
   - **Beyond the Basics**: Recommendations for further exploration in OOP, including resources, projects, and advanced topics not covered in this series.
 
