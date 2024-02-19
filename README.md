@@ -1,41 +1,4 @@
-# 📘 Object-Oriented Programming in Python
-
-Welcome to the first module of our Python course at St. Ignatius College, focusing on Simple Data Types. This module is designed to lay a solid foundation for understanding how Python stores, manipulates, and utilizes data.
-
-# Navigation 🧭
-
-This module is part of the larger Python programming course offered by St. Ignatius College, designed to take you from basic to advanced programming concepts in a step-by-step manner. 
-
-[Course Repository: Comprehensive Python Course](https://github.com/YuriODev/St-Ignatius-Python-Course)
-
-⬅️ [Previous Topic: Files](https://github.com/YuriODev/python-st-ignatius-08-files-in-python/blob/main/README.md)
-
-➡️ [Next Topic: Modules and Packages](https://github.com/YuriODev/python-st-ignatius-10-modules-and-packages/blob/main/README.md)
-
-# Course Overview 🎓
-
-This Python course covers a wide range of topics, designed to provide you with a solid foundation in programming, from simple data types to advanced concepts like Object-Oriented Programming and data structures. Each module is carefully crafted to build upon the previous one, ensuring a comprehensive understanding of Python programming.
-
-## Modules Covered:
-- [Variables and Data Types 📊](https://github.com/YuriODev/python-st-ignatius-01-simple-data-types/blob/main/README.md) 
-- [Conditional Statements 🔀](https://github.com/YuriODev/python-st-ignatius-02-simple-conditional-statements/blob/main/README.md)
-- [Iterations and Loops ➿](https://github.com/YuriODev/python-st-ignatius-03-iterations-and-loops/blob/main/README.md)
-- [String Manipulation 🧵](https://github.com/YuriODev/python-st-ignatius-04-string-manipulation/blob/main/README.md)
-- [Lists and Tuples 📝](https://github.com/YuriODev/python-st-ignatius-05-lists-in-python/blob/main/README.md)
-- [Dictionaries 🗂](https://github.com/YuriODev/python-st-ignatius-06-mastering-dictionaries/blob/main/README.md)
-- [Functions 🛠](https://github.com/YuriODev/python-st-ignatius-07-functions-in-python/blob/main/README.md)
-- [Files 🗄](https://github.com/YuriODev/python-st-ignatius-08-files-in-python/blob/main/README.md)
-- **Object-Oriented Programming (OOP) (Current Module)**
-- [Modules and Packages 📦](https://github.com/YuriODev/python-st-ignatius-10-modules-and-packages/blob/main/README.md)
-- [Unit Testing ✅](https://github.com/YuriODev/python-st-ignatius-11-unit-testing/blob/main/README.md)
-
-## 📂 Repository Structure
-
-- [Theory](./theory): This folder contains all the theoretical materials related to simple data types in Python.
-- [Examples](./examples): Here you can find example problems and their solutions to understand the practical implementation of the concepts covered.
-- [Exercises](./exercises): Here you can find exercises to practice your understanding of the topics covered.
-- [Solutions](./solutions): This folder contains solutions to the exercises. It's recommended to try solving the exercises yourself before checking the solutions.
-
+# 1. OOP 
 
 ## 📝 Overview
 
@@ -43,79 +6,128 @@ In this module, we'll dive deep into the basics of Python programming, starting 
 
 ## 🧩 Topics Covered
 
-### 1. Objects and Variables 🆔
+# 1. Introduction to Object-Oriented Programming (OOP) 🌟
+   - Explore the definition and significance of OOP in modern programming.
+   - Compare OOP with procedural programming to highlight advantages.
+   - Introduce core OOP concepts: Classes, Objects, Methods, Attributes.
 
-Explore how Python uses objects and variables as references to store and manipulate data in memory.
+# 2. Benefits of Object-Oriented Programming 🚀
+   - Discuss modularity, highlighting how OOP facilitates modular code development.
+   - Cover reusability, demonstrating how OOP principles encourage code reuse.
+   - Explain code readability and maintainability improvements through OOP.
+   - Introduce key OOP features: Encapsulation, Inheritance, Polymorphism.
 
-### 2. Numbers 🔢
+# 3. Classes and Objects 🛠
+   - **Class Definition**
+      - Explain the structure and syntax for defining classes in Python.
+      - Discuss the purpose and usage of the `__init__` constructor method.
+      - Introduce the concept of a `FootballPlayer` class with attributes like `name` and `position`.
+   - **Object Instantiation**
+      - Guide on creating instances from a class (object instantiation).
+      - Demonstrate accessing attributes and methods on class instances.
+      - Provide an example of creating and interacting with a `FootballPlayer` object.
 
-Understand the numeric data types in Python, including operations on integers and floating-point numbers.
-- ➖ Integers
-   - Learn about integer operations, their utility, and the integral part of Python's data types.
-- 🔄 Type Conversion with `int()`
-   - Master converting other data types into integers for consistent data manipulation.
-- 🏗 Operator Precedence
-   - Discover the rules Python follows in evaluating mathematical operators in expressions.
-- 🌊 Floating-Point Numbers
-   - Dive into the world of floating-point numbers, their precision, and their importance in Python.
-- ➗ Type Conversion with `float()`
-   - Get acquainted with converting various data types into floating-point numbers for numerical computations.
-- 🧮 Mathematical Functions
-   - Explore Python's mathematical functions to perform complex numerical computations efficiently.
+# 4. Attributes and Methods 🔑
+   - **Instance Variables**
+      - Detail instance variables and their role in defining object state.
+   - **Class Variables**
+      - Explain class variables and how they are shared across class instances.
+      - Use a class variable in the `FootballPlayer` class to demonstrate sharing data.
+   - **Methods in Depth**
+      - Elaborate on creating and using instance, class, and static methods.
+      - Highlight the importance of the `self` parameter in instance methods.
+      - Extend the `FootballPlayer` class with methods like `score_goal` to showcase method usage.
 
-### 3. Strings 📝
+# 5. Encapsulation 🛡
+   - **Understanding Encapsulation**
+      - Discuss the concept of encapsulating data within an object.
+      - Explain the distinction between public, protected and private attributes.
+   - **Implementing Encapsulation**
+      - Introduce property decorators for creating getter and setter methods.
+      - Apply encapsulation in the `FootballPlayer` class to manage `age` attribute access securely.
 
-   Strings represent textual data in Python. This section covers creation, manipulation, and practical uses of strings.
-   - ✍ Creating Strings and Using `print()`
-      - Begin with creating strings and displaying them, using the `print()` function for output.
-   - 🎨 Formatting Styles: `format()`, f-strings
-      - Learn about Python's string formatting options to produce neatly formatted textual output. Understand how to use the `format()` method for older Python versions and f-strings (formatted string literals) in Python 3.6 and newer for a more readable and concise way to format strings.
-   - ↔ Type Conversion with `str()`
-      - Understand converting other data types to strings, facilitating text processing and manipulation. This is crucial for combining numeric data with textual data in output or processing user input.
-   - 📏 String Methods and Operations
-      - Python strings come with a variety of methods that allow you to manipulate them effectively. Learn about methods like `.upper()`, `.lower()`, `.strip()`, `.find()`, and more to process and analyze text data efficiently.
-   - 🎭 Escape Characters
-      - Dive into escape characters in Python, such as `\n` for a new line or `\t` for a tab, which allow you to include special characters in strings that would otherwise be difficult to type directly.
-   - 🔗 String Concatenation and Repetition
-      - Explore how to concatenate (join) strings together and how to repeat strings using the `+` and `*` operators, respectively. This is useful for creating dynamic output based on user input or program data.
-   - 🧭 Accessing Characters and Slicing
-      - Learn how to access individual characters in a string by their index and how to slice strings to obtain substrings. This is essential for text analysis and manipulation in Python.
-   - 📊 String Formatting with Percent (%) Operator
-      - Before f-strings and the `format()` method, Python used the percent (`%`) operator for string formatting. Though less commonly used today, understanding this method can be helpful for reading older Python code.
+# 6. Getters and Setters 🔄
+   - **Using Getters and Setters**
+      - Discuss why getters and setters are important for data encapsulation and validation.
+      - Implement getters and setters in the `FootballPlayer` class to control access to private attributes like `__salary`.
 
-### 4. Boolean Values in Python 🤔
+# 7. Inheritance (Preview) 🌱
+   - Provide a brief overview of inheritance as an introduction to the next notebook.
+   - Highlight the concept of deriving new classes from existing ones to extend or modify functionality.
 
-- Understanding the significance of `True` and `False` in Python.
-- Utilizing boolean values in conditional statements and looping constructs.
-- Performing comparison operations to establish relationships between values.
-- Applying logical operations to combine boolean conditions.
+# 8. Conclusion and Next Steps 🔜
+   - Summarize the foundational concepts of OOP covered in this notebook.
+   - Tease upcoming topics such as deeper dives into Inheritance, Polymorphism, and advanced OOP features.
 
-### 5. Data Input from Keyboard 🖥️
+# 9. Deep Dive into Inheritance 🌱
+  - **The Power of Inheritance**: Explore the concept of inheritance in OOP, enabling new classes to take on properties and methods of existing classes.
+    - Example: Extending a `FootballPlayer` class to a more specific `Goalkeeper` class.
+  - **Customizing with Method Overriding**: Learn how subclasses can override methods of their superclass to perform different or additional actions.
+    - Example: Overriding the `save_goal` method in the `Goalkeeper` class.
+  - **Advanced Inheritance Patterns**: Discuss scenarios where multiple inheritance might be used and how Python resolves method lookup.
+    - Example: Creating a `PlayerCoach` class that inherits from both `Player` and `Coach` classes.
+  - **Utilizing the `super()` Function**: Demystify the `super()` function for accessing superclass methods from a subclass.
+    - Example: Using `super()` in the `Goalkeeper` class to extend the `__init__` method.
 
-- Capturing and processing user input using the `input()` function.
-- Implementing interactive scripts that respond to user actions.
+# 10. Exploring Polymorphism 🔁
+  - **Understanding Polymorphism**: Introduce polymorphism as a way to use a unified interface for objects of different classes.
+    - Example: A function that accepts any object that has a `play` method, whether it's a `FootballPlayer` or a `Musician`.
+  - **Implementing Polymorphism**: Show how Python's dynamic nature supports polymorphism without the need for complex type hierarchies.
+    - Example: Writing a generic `team_performance` function that can apply to objects of both the `FootballPlayer` and `Coach` classes.
+  - **Duck Typing and Python**: Illustrate the concept of duck typing in Python and how it relates to polymorphism.
+    - Example: Demonstrating duck typing with different objects that implement a common method differently.
 
-### 6. Extra Python Tricks ✨
+# 11. Mastering Magic Methods and Operator Overloading ✨
+  - **Introduction to Magic Methods**: Explain magic methods and how they allow customization of Python's built-in behavior for custom classes.
+    - Example: Implementing `__str__` and `__repr__` for the `FootballPlayer` class for better string representation.
+  - **Operator Overloading Fundamentals**: Cover how to overload standard operators for custom objects using magic methods.
+    - Example: Overloading the `+` operator to combine the goals of two `FootballPlayer` instances.
+  - **Comprehensive List of Magic Methods**: Provide an overview of various magic methods for comparison, arithmetic operations, and container behaviors.
+    - Example: Using `__add__`, `__lt__` (less than), `__eq__` (equal to), and `__getitem__` for a class representing a team.
 
-- Leveraging comments to document and explain your code.
-- Using whitespace and indentation to create readable code structures.
-- Following the Python style guide for writing clean and maintainable code.
-- Utilizing compound operators for efficient code execution.
+# 12. Abstract Base Classes (ABCs) and Interface Definition 🛡️
+  - **Why Use ABCs?**: Understand the role of abstract base classes in defining interfaces and enforcing subclass implementation.
+    - Example: Defining an `Athlete` ABC with an abstract `train` method.
+  - **Creating and Using ABCs**: Learn to use the `abc` module to create abstract classes and abstract methods.
+    - Example: Implementing an `Athlete` class that cannot be instantiated and requires subclasses to implement the `train` method.
+
+# 13. Multiple Inheritance and Mixins 🔄
+  - **Understanding Multiple Inheritance**: Navigate the complexities and benefits of inheriting from more than one base class.
+    - Example: Creating a `StudentAthlete` class that inherits from both `Student` and `Athlete` classes.
+  - **Leveraging Mixins for Composability**: Utilize mixins to add reusable functionalities to classes.
+    - Example: Introducing a `TrainingMixin` that provides additional training methods to any class.
+
+# 14. **Decorators in OOP 🎨
+  - **Enhancing Methods with Decorators**: Use decorators to add new functionalities to methods without modifying their original structure.
+    - Example: Applying a `@performance_timer` decorator to time methods in the `Athlete` class.
+  - **Creating Custom Decorators**: Dive into writing your own decorators for methods in OOP contexts.
+    - Example: Writing a `@debug` decorator to log method calls and arguments.
+
+# 15. Advanced Use Cases and Techniques 🚀
+  - **Operator Overloading for Custom Behaviors**: Explore further examples of magic methods for custom object behavior.
+    - Example: Implementing `__call__` in the `Coach` class to make objects callable.
+  - **Using Context Managers in OOP**: Implement context managers within classes for resource management.
+    - Example: Creating a `GameSession` context manager to manage game state.
+
+# 16. Best Practices and Common Design Patterns 🏅
+  - **OOP Best Practices**: Summarize key practices for writing effective and clean OOP code.
+  - **Exploring Design Patterns**: Introduction to common OOP design patterns like Singleton, Factory, Strategy, and Observer.
+    - Example: Implementing the Singleton pattern in a `GameManager` class.
+  - **Real-World Applications of Design Patterns**: Discuss how these patterns are applied in real-world scenarios and projects.
+
+# 17. Conclusion and Further Learning 📚
+  - **Wrapping Up**: Reflect on the journey through OOP with Python and how these concepts apply to real-world software development.
+  - **Beyond the Basics**: Recommendations for further exploration in OOP, including resources, projects, and advanced topics not covered in this series.
+
+
 
 # Learning Path 🛣️
 
-1. **Boolean Values and Operations**
-    - Discover how to work with booleans and their pivotal role in flow control.
-    - Learn about comparison operations like `==`, `!=`, `>`, `<`, `>=`, and `<=`.
-    - Explore logical operations such as `and`, `or`, and `not`.
+1. **Fundamentals of Object-Oriented Programming (OOP)**
+   - **Notebook 1: Introduction to OOP**
+   - Notebook 2: Inheritance and Polymorphism
+   - Notebook 3: Advanced OOP Concepts
 
-2. **Keyboard Input Handling**
-    - Understand how to obtain user input in your programs.
-    - Practice with examples that use keyboard input for interactivity.
-
-3. **Pythonic Tips and Tricks**
-    - Dive into best practices for writing Pythonic code.
-    - Gain knowledge of additional features like multiple variable assignments, augmented assignment operators (e.g., `+=`, `*=`), and other syntactic conveniences.
 
 # Exercises and Examples 🏋️‍♂️
 
