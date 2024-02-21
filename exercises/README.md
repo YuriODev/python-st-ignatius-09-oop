@@ -125,3 +125,37 @@
 | Restock the item            | `milk.restock(100)`                           | "Restocked 'Milk'. New quantity: 150."                  |
 | Sell the item               | `milk.sell(75)`                               | "Sold 75 units of 'Milk'. Quantity left: 75."           |
 
+
+
+## Exercise 6: Event Planner
+
+**Objective:** Develop an `Event` class to organize details and track attendees for events.
+
+### Class Specifications:
+
+- **Instance Variables:**
+  - `name` (str): Name of the event.
+  - `date` (str): Date of the event.
+  - `attendees` (list): A list storing the names of event attendees.
+
+- **Methods:**
+  - `__init__(self, name: str, date: str)`: Constructor to initialize an event with a name, date, and an empty list for attendees.
+  - `add_attendee(self, attendee_name: str)`: Adds a new attendee by name to the event.
+  - `remove_attendee(self, attendee_name: str)`: Removes an attendee by name from the event, if they are listed.
+  - `display_event_details(self)`: Outputs the event's details, including name, date, and a list of attendees.
+
+### Tasks and Expected Inputs/Outputs:
+
+| Task                  | Input Example                              | Expected Output                                                         |
+|-----------------------|--------------------------------------------|-------------------------------------------------------------------------|
+| **Add Event**         | `event = Event("Tech Conference", "2023-07-24")` | *No direct output, initializes an Event object*                           |
+| **Add Attendee**      | `event.add_attendee("Alice")`              | *No direct output, but updates attendees list*                           |
+| **Remove Attendee**   | `event.remove_attendee("Alice")`           | *No direct output, but updates attendees list if Alice was listed*       |
+| **Display Event**     | `event.display_event_details()`            | "Event: Tech Conference, Date: 2023-07-24, Attendees: Alice, Bob" |
+
+### Implementation Details:
+
+- Ensure the `attendees` list is properly updated with each method call affecting it.
+- The `display_event_details` method should neatly format and print all details of the event, including listing all attendees by name.
+
+This corrected version aims to align class specifications with expected inputs/outputs and clarify the tasks involved in implementing the `Event` class.
