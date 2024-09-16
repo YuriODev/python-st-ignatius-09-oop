@@ -42,18 +42,18 @@ In this module, we'll dive deep into the basics of Python programming, starting 
 
 ## 🧩 Topics Covered
 
-# 1. Introduction to Object-Oriented Programming (OOP) 🌟
+### 1. Introduction to Object-Oriented Programming (OOP) 🌟
    - Explore the definition and significance of OOP in modern programming.
    - Compare OOP with procedural programming to highlight advantages.
    - Introduce core OOP concepts: Classes, Objects, Methods, Attributes.
 
-# 2. Benefits of Object-Oriented Programming 🚀
+### 2. Benefits of Object-Oriented Programming 🚀
    - Discuss modularity, highlighting how OOP facilitates modular code development.
    - Cover reusability, demonstrating how OOP principles encourage code reuse.
    - Explain code readability and maintainability improvements through OOP.
    - Introduce key OOP features: Encapsulation, Inheritance, Polymorphism.
 
-# 3. Classes and Objects 🛠
+### 3. Classes and Objects 🛠
    - **Class Definition**
       - Explain the structure and syntax for defining classes in Python.
       - Discuss the purpose and usage of the `__init__` constructor method.
@@ -63,7 +63,7 @@ In this module, we'll dive deep into the basics of Python programming, starting 
       - Demonstrate accessing attributes and methods on class instances.
       - Provide an example of creating and interacting with a `FootballPlayer` object.
 
-# 4. Attributes and Methods 🔑
+### 4. Attributes and Methods 🔑
    - **Instance Variables**
       - Detail instance variables and their role in defining object state.
    - **Class Variables**
@@ -74,7 +74,7 @@ In this module, we'll dive deep into the basics of Python programming, starting 
       - Highlight the importance of the `self` parameter in instance methods.
       - Extend the `FootballPlayer` class with methods like `score_goal` to showcase method usage.
 
-# 5. Encapsulation 🛡
+### 5. Encapsulation 🛡
    - **Understanding Encapsulation**
       - Discuss the concept of encapsulating data within an object.
       - Explain the distinction between public, protected and private attributes.
@@ -82,16 +82,16 @@ In this module, we'll dive deep into the basics of Python programming, starting 
       - Introduce property decorators for creating getter and setter methods.
       - Apply encapsulation in the `FootballPlayer` class to manage `age` attribute access securely.
 
-# 6. Getters and Setters 🔄
+### 6. Getters and Setters 🔄
    - **Using Getters and Setters**
       - Discuss why getters and setters are important for data encapsulation and validation.
       - Implement getters and setters in the `FootballPlayer` class to control access to private attributes like `__salary`.
 
-# 7. Inheritance (Preview) 🌱
+### 7. Inheritance (Preview) 🌱
    - Provide a brief overview of inheritance as an introduction to the next notebook.
    - Highlight the concept of deriving new classes from existing ones to extend or modify functionality.
 
-# 8. Deep Dive into Inheritance 🌱
+### 8. Deep Dive into Inheritance 🌱
   - **The Power of Inheritance**: Explore the concept of inheritance in OOP, enabling new classes to take on properties and methods of existing classes.
     - Example: Extending a `FootballPlayer` class to a more specific `Goalkeeper` class.
   - **Customizing with Method Overriding**: Learn how subclasses can override methods of their superclass to perform different or additional actions.
@@ -101,7 +101,7 @@ In this module, we'll dive deep into the basics of Python programming, starting 
   - **Utilizing the `super()` Function**: Demystify the `super()` function for accessing superclass methods from a subclass.
     - Example: Using `super()` in the `Goalkeeper` class to extend the `__init__` method.
 
-# 9. Exploring Polymorphism 🔁
+### 9. Exploring Polymorphism 🔁
   - **Understanding Polymorphism**: Introduce polymorphism as a way to use a unified interface for objects of different classes.
     - Example: A function that accepts any object that has a `play` method, whether it's a `FootballPlayer` or a `Musician`.
   - **Implementing Polymorphism**: Show how Python's dynamic nature supports polymorphism without the need for complex type hierarchies.
@@ -109,7 +109,7 @@ In this module, we'll dive deep into the basics of Python programming, starting 
   - **Duck Typing and Python**: Illustrate the concept of duck typing in Python and how it relates to polymorphism.
     - Example: Demonstrating duck typing with different objects that implement a common method differently.
 
-# 10. Mastering Magic Methods and Operator Overloading ✨
+### 10. Mastering Magic Methods and Operator Overloading ✨
   - **Introduction to Magic Methods**: Explain magic methods and how they allow customization of Python's built-in behavior for custom classes.
     - Example: Implementing `__str__` and `__repr__` for the `FootballPlayer` class for better string representation.
   - **Operator Overloading Fundamentals**: Cover how to overload standard operators for custom objects using magic methods.
@@ -117,37 +117,37 @@ In this module, we'll dive deep into the basics of Python programming, starting 
   - **Comprehensive List of Magic Methods**: Provide an overview of various magic methods for comparison, arithmetic operations, and container behaviors.
     - Example: Using `__add__`, `__lt__` (less than), `__eq__` (equal to), and `__getitem__` for a class representing a team.
 
-# 11. Abstract Base Classes (ABCs) and Interface Definition 🛡️
+### 11. Abstract Base Classes (ABCs) and Interface Definition 🛡️
   - **Why Use ABCs?**: Understand the role of abstract base classes in defining interfaces and enforcing subclass implementation.
     - Example: Defining an `Athlete` ABC with an abstract `train` method.
   - **Creating and Using ABCs**: Learn to use the `abc` module to create abstract classes and abstract methods.
     - Example: Implementing an `Athlete` class that cannot be instantiated and requires subclasses to implement the `train` method.
 
-# 12. Multiple Inheritance and Mixins 🔄
+### 12. Multiple Inheritance and Mixins 🔄
   - **Understanding Multiple Inheritance**: Navigate the complexities and benefits of inheriting from more than one base class.
     - Example: Creating a `StudentAthlete` class that inherits from both `Student` and `Athlete` classes.
   - **Leveraging Mixins for Composability**: Utilize mixins to add reusable functionalities to classes.
     - Example: Introducing a `TrainingMixin` that provides additional training methods to any class.
 
-# 13. Decorators in OOP 🎨
+### 13. Decorators in OOP 🎨
   - **Enhancing Methods with Decorators**: Use decorators to add new functionalities to methods without modifying their original structure.
     - Example: Applying a `@performance_timer` decorator to time methods in the `Athlete` class.
   - **Creating Custom Decorators**: Dive into writing your own decorators for methods in OOP contexts.
     - Example: Writing a `@debug` decorator to log method calls and arguments.
 
-# 14. Advanced Use Cases and Techniques 🚀
+### 14. Advanced Use Cases and Techniques 🚀
   - **Operator Overloading for Custom Behaviors**: Explore further examples of magic methods for custom object behavior.
     - Example: Implementing `__call__` in the `Coach` class to make objects callable.
   - **Using Context Managers in OOP**: Implement context managers within classes for resource management.
     - Example: Creating a `GameSession` context manager to manage game state.
 
-# 15. Best Practices and Common Design Patterns 🏅
+### 15. Best Practices and Common Design Patterns 🏅
   - **OOP Best Practices**: Summarize key practices for writing effective and clean OOP code.
   - **Exploring Design Patterns**: Introduction to common OOP design patterns like Singleton, Factory, Strategy, and Observer.
     - Example: Implementing the Singleton pattern in a `GameManager` class.
   - **Real-World Applications of Design Patterns**: Discuss how these patterns are applied in real-world scenarios and projects.
 
-# 16. Conclusion and Further Learning 📚
+### 16. Conclusion and Further Learning 📚
   - **Wrapping Up**: Reflect on the journey through OOP with Python and how these concepts apply to real-world software development.
   - **Beyond the Basics**: Recommendations for further exploration in OOP, including resources, projects, and advanced topics not covered in this series.
 
