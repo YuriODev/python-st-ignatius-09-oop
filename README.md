@@ -156,7 +156,7 @@ In this module, we'll dive deep into the basics of Python programming, starting 
 # Learning Path 🛣️
 
 1. **Fundamentals of Object-Oriented Programming (OOP)**
-   - **Notebook 1: Introduction to OOP**
+   - Notebook 1: Introduction to OOP
    - Notebook 2: Inheritance and Polymorphism
    - Notebook 3: Advanced OOP Concepts
 
